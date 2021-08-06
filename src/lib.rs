@@ -58,6 +58,7 @@
 #![cfg_attr(test, deny(warnings))]
 // Disallow warnings in examples.
 #![doc(test(attr(deny(warnings))))]
+#![feature(const_if_match)]
 
 use std::fmt;
 use std::mem::MaybeUninit;
